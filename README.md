@@ -3,7 +3,7 @@
 ## Description 📝
 It is a small project that controls the **payroll** and **rest** of hospital employees.
 
-###There are 3 roles of employees :
+️<ins>There are 3 roles of employees:️</ins>
 
 1️⃣ **Doctor**:
 
@@ -13,13 +13,16 @@ It is a small project that controls the **payroll** and **rest** of hospital emp
 
 3️⃣ **Secretary**
 
+
 ☑️<ins>**Two(2) controllers are implemented:**</ins>
 
 The one manages the **payroll**(SalaryController) and the other the **rest**(RestController) of the employees.
 
+
 ☑️<ins>**Two(2) interfaces are implemented:**️</ins>
 
 The one **predifines** the **basic salary**(BaseSalary) of all employees and the other the **basic rest days**(Rest).
+
 
 For the final salary and rest, different parameters are taken into consideration for each kind of employee:
 
