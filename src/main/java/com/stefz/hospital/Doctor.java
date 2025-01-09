@@ -4,10 +4,6 @@ public class Doctor extends HospitalEmployee implements BaseSalary{
 
     private int incident;
 
-    public void setIncident(int incident) {
-        this.incident = incident;
-    }
-
     public Doctor(int incident, String firstName, String lastName, String id, String email, String mobile, String address, int workHours, double salary, int dayOff) {
         super(firstName, lastName, id, email, mobile, address, workHours, salary=BASE_SALARY_DOCTOR, dayOff);
         this.incident = incident;
@@ -15,6 +11,10 @@ public class Doctor extends HospitalEmployee implements BaseSalary{
 
     public int getIncident() {
         return incident;
+    }
+    
+    public void setIncident(int incident) {
+        this.incident = incident;
     }
 
     @Override

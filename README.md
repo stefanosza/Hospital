@@ -17,17 +17,17 @@ It is a small project that controls the **payroll** and **rest** of hospital emp
 
 ☑️<ins>**Two(2) controllers are implemented:**</ins>
 
-The one manages the **payroll**(SalaryController) and the other the **rest**(RestController) of the employees.
+The one manages the **payroll**(SalaryController) and the other the **rest days**(RestDaysController) of the employees.
 
 <br/>
 
 ☑️<ins>**Two(2) interfaces are implemented:**</ins>
 
-The one **predifines** the **basic salary**(BaseSalary) of all employees and the other the **basic rest days**(Rest).
+The one **predifines** the **basic salary**(BaseSalary) of all employees and the other the **basic rest days**(RestDays).
 
 <br/>
 
-For the final salary and rest, different parameters are taken into consideration for each kind of employee:
+For the final salary and rest days, different parameters are taken into consideration for each kind of employee:
 
 - **Doctor:**  Number of attended cases
 - **Surgeon:** Number of operations performed

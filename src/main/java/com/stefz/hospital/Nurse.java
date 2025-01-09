@@ -5,8 +5,8 @@ public class Nurse extends HospitalEmployee implements BaseSalary {
 
     private int vacicne;
 
-    public Nurse(String firstName, String lastName, String id, String email, String mobile, String address, int workHours,
-            double salary, int dayOff, int vacicne) {
+    public Nurse(int vacicne,String firstName, String lastName, String id, String email, String mobile, String address, int workHours,
+            double salary, int dayOff) {
         super(firstName, lastName, id, email, mobile, address, workHours, salary=BASE_SALARY_NURSE, dayOff);
         this.vacicne = vacicne;
     }

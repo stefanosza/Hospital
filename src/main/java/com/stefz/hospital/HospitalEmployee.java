@@ -1,7 +1,7 @@
 
 package com.stefz.hospital;
 
-public  abstract class HospitalEmployee implements Rest{
+public  abstract class HospitalEmployee implements RestDays{
     
     private String firstName;
     private String lastName;
