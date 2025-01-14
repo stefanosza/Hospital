@@ -24,9 +24,5 @@ public class Secretary extends HospitalEmployee implements BaseSalary{
                 + ", getLastName()=" + getLastName() + ", getId()=" + getId() + ", getEmail()=" + getEmail()
                 + ", getMobile()=" + getMobile() + ", getAddress()=" + getAddress() + ", getWorkHours()="
                 + getWorkHours() + ", getSalary()=" + getSalary() + ", getDayOff()=" + getDayOff() + "]";
-    }
-
-    @Override
-   public void baseSalary(){}
-    
+    }    
 }

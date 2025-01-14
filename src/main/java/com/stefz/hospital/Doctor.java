@@ -24,10 +24,4 @@ public class Doctor extends HospitalEmployee implements BaseSalary{
                 + getEmail() + ", getMobile()=" + getMobile() + ", getAddress()=" + getAddress() + ", getWorkHours()="
                 + getWorkHours() + ", getSalary()=" + getSalary() + ", getDayOff()=" + getDayOff() + "]";
     }   
-  
-    @Override
-    public void baseSalary(){
-    }
-
 }
-

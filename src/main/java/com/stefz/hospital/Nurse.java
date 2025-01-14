@@ -1,6 +1,5 @@
 package com.stefz.hospital;
 
-
 public class Nurse extends HospitalEmployee implements BaseSalary {
 
     private int vacicne;
@@ -11,7 +10,6 @@ public class Nurse extends HospitalEmployee implements BaseSalary {
         this.vacicne = vacicne;
     }
     
-
     public int getVacicne() {
         return vacicne;
     }
@@ -20,7 +18,6 @@ public class Nurse extends HospitalEmployee implements BaseSalary {
         this.vacicne = vacicne;
     }
 
-
     @Override
     public String toString() {
         return "Nurse [vacicne=" + vacicne + ", getVacicne()=" + getVacicne() + ", getFirstName()=" + getFirstName()
@@ -28,9 +25,6 @@ public class Nurse extends HospitalEmployee implements BaseSalary {
                 + ", getMobile()=" + getMobile() + ", getAddress()=" + getAddress() + ", getWorkHours()="
                 + getWorkHours() + ", getSalary()=" + getSalary() + ", getDayOff()=" + getDayOff() + "]";
     }
-
-    @Override
-    public  void baseSalary(){}
 }
 
 

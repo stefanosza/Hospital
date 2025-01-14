@@ -1,4 +1,3 @@
-
 package com.stefz.hospital;
 
 public  abstract class HospitalEmployee implements RestDays{
@@ -108,10 +107,5 @@ public  abstract class HospitalEmployee implements RestDays{
         return "HospitalEmployee [firstName=" + firstName + ", lastName=" + lastName + ", id=" + id + ", email=" + email
                 + ", mobile=" + mobile + ", address=" + address + ", workHours=" + workHours + ", salary=" + salary
                 + ", dayOff=" + dayOff + "]";
-    }
-
-    @Override
-    public void standardRest(){
-       
     }
 }
